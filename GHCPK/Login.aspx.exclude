@@ -1,0 +1,235 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>GHC - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta charset="UTF-8">
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
+        
+    <!-- CSS Bootstrap & Custom -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    
+    <link href="style.css" rel="stylesheet" media="screen">
+     
+     <!-- FAVICON -->   
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <!-- JavaScripts -->
+    <script src="js/jquery-1.10.2.min.js.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+            <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
+        </div>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- This one in here is responsive menu for tablet and mobiles -->
+    <div class="responsive-navigation visible-sm visible-xs">
+        <a href="#" class="menu-toggle-btn">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div class="responsive_menu">
+            <ul class="main_menu">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                    <ul>
+                        <li><a href="#">link here</a></li>
+                        <li><a href="#">link here</a></li>
+                        <li><a href="#">link here</a></li>
+                        <li><a href="#">link here</a></li>
+                        <li><a href="#">link here</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Consular Section</a></li>
+                <li><a href="#">Photo Gallery</a></li>
+                <li><a href="#">News & Events</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul> <!-- /.main_menu -->
+        </div> <!-- /.responsive_menu -->
+    </div> <!-- /responsive_navigation -->
+
+
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                   <div class="logo">
+                        <a href="index.html" title="" rel="home">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div> <!-- /.logo -->
+                </div> <!-- /.header-left -->
+
+                <div class="col-md-4">
+                    
+                </div> <!-- /.col-md-4 -->
+
+                <div class="col-md-4 header-right">
+                    <ul class="small-links login_width pull-right">
+                        <li><a class="login_color" href="Login.aspx"><div class="login_icon"></div>Login</a></li>
+                    </ul>
+                </div> <!-- /.header-right -->
+            </div>
+        </div> <!-- /.container -->
+
+        <div class="nav-bar-main" role="navigation">
+            <div class="container">
+                <nav class="main-navigation clearfix visible-md visible-lg" role="navigation">
+                         <ul class="main-menu sf-menu">
+                           
+                            <li><a href="Home.aspx">Home</a></li>
+
+                           <%-- <li><a href="#">About Us</a></li>--%>
+
+							<li><a href="#">Consular Section</a></li>
+
+                            <li><a href="Portfolio.aspx">Photo Gallery</a></li>
+
+                            <li><a href="NewsDescription.aspx">News</a></li>
+
+                              <li><a href="EventDescription.aspx">Events</a></li>
+
+            				<li><a href="Contactus.aspx">Contact Us</a></li>
+                           
+                           </ul>
+
+
+                </nav> <!-- /.main-navigation -->
+            </div> <!-- /.container -->
+        </div> <!-- /.nav-bar-main -->
+
+    </header> <!-- /.site-header -->
+    
+
+    <div class="container">
+        <div class="row">
+            
+            <!-- Here begin Main Content -->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="widget-item" style="text-align:center;">
+                            <div class="container">
+
+                          <form role="form" class="form-signin" runat="server">
+                                <h2 class="form-signin-heading">Please Login</h2>
+
+
+
+
+                          <asp:Table ID="Table1" runat="server" Width="843px">
+                          <asp:TableRow>
+                            <asp:TableCell>
+                            
+                            
+                            </asp:TableCell>
+                          <asp:TableCell>
+                          
+                          </asp:TableCell>
+                          
+                          </asp:TableRow>
+                          </asp:Table>
+
+
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+                                <asp:TextBox ID="txt_email"  placeholder="Email address" runat="server" class="form-control"></asp:TextBox>
+                               <br />
+                                <asp:TextBox ID="txt_password" runat="server" class="form-control" placeholder="Password"></asp:TextBox>
+
+                                <br />
+                                <asp:CheckBox ID="chk_login" Text="Rememberme" runat="server" />
+          
+                                <button type="submit" class="btn btn-lg btn-primary btn-block" runat="server">Login</button>
+                          </form>
+
+    </div>
+
+                            
+                        </div> <!-- /.widget-item -->
+                    </div> <!-- /.col-md-12 -->
+                </div> <!-- /.row -->
+
+                
+               
+
+            </div> <!-- /.col-md-8 -->
+            
+            
+        </div>
+    </div>
+
+    <!-- begin The Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-md-2">
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+                
+                <div class="col-md-2">
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-widget">
+                        <ul class="footer-media-icons">
+                            <li><a class="fa fa-facebook facebook_bg" href="#"></a></li>
+                            <li><a class="fa fa-twitter twiter_bg" href="#"></a></li>
+                            <li><a class="fa fa-google-plus googleplus_bg" href="#"></a></li>
+                            <li><a class="fa fa-linkedin linkedin_bg" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- /.row -->
+
+            <div class="bottom-footer">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="small-text">©2014 Ghana High Commission</p>
+                    </div> <!-- /.col-md-5 -->
+                    <div class="col-md-7">
+                        <ul class="footer-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Consular Section</a></li>
+                            <li><a href="#">Photo Gallery</a></li>
+                            <li><a href="#">News & Events</a></li>
+                            <li><a href="#">Useful Links</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div> <!-- /.col-md-7 -->
+                </div> <!-- /.row -->
+            </div> <!-- /.bottom-footer -->
+
+        </div> <!-- /.container -->
+    </footer> <!-- /.site-footer -->
+
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
