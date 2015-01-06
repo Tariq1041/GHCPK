@@ -1,0 +1,4 @@
+D:\Learning\GHC\GHCPK_DAL\GHCPK_DAL\bin\Release\GHCPK_DAL.dll
+D:\Learning\GHC\GHCPK_DAL\GHCPK_DAL\bin\Release\GHCPK_DAL.pdb
+D:\Learning\GHC\GHCPK_DAL\GHCPK_DAL\obj\Release\GHCPK_DAL.dll
+D:\Learning\GHC\GHCPK_DAL\GHCPK_DAL\obj\Release\GHCPK_DAL.pdb

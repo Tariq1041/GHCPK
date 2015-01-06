@@ -1,0 +1,7 @@
+D:\Learning\GHC\GHCPK_BAL\GHCPK_BAL\bin\Debug\GHCPK_BAL.pdb
+D:\Learning\GHC\GHCPK_BAL\GHCPK_BAL\bin\Debug\GHCPK_DAL.pdb
+D:\Learning\GHC\GHCPK_BAL\GHCPK_BAL\obj\Debug\GHCPK_BAL.csprojResolveAssemblyReference.cache
+D:\Learning\GHC\GHCPK_BAL\GHCPK_BAL\obj\Debug\GHCPK_BAL.dll
+D:\Learning\GHC\GHCPK_BAL\GHCPK_BAL\obj\Debug\GHCPK_BAL.pdb
+D:\Learning\GHC\GHCPK_BAL\GHCPK_BAL\bin\Debug\GHCPK_BAL.dll
+D:\Learning\GHC\GHCPK_BAL\GHCPK_BAL\bin\Debug\GHCPK_DAL.dll

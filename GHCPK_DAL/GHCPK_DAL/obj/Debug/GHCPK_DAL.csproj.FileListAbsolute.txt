@@ -1,0 +1,4 @@
+D:\Learning\GHC\GHCPK_DAL\GHCPK_DAL\bin\Debug\GHCPK_DAL.dll
+D:\Learning\GHC\GHCPK_DAL\GHCPK_DAL\bin\Debug\GHCPK_DAL.pdb
+D:\Learning\GHC\GHCPK_DAL\GHCPK_DAL\obj\Debug\GHCPK_DAL.dll
+D:\Learning\GHC\GHCPK_DAL\GHCPK_DAL\obj\Debug\GHCPK_DAL.pdb
